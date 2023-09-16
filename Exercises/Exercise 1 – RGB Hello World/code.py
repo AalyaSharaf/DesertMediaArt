@@ -27,9 +27,9 @@ while True:
     
     # Make the green light blink
     for _ in range(6):
-        led[0] = (0, 255, 0)  # Turn off
+        led[0] = (0, 255, 0)  # Turn on
         time.sleep(0.5)
-        led[0] = (0, 0, 0)  # Turn on
+        led[0] = (0, 0, 0)  # Turn off
         time.sleep(0.5)
    
     # Turn the light yellow
